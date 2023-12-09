@@ -2,86 +2,98 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="italic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/Widget.AppCompat.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculator"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintVertical_bias="0.088" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="387dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mul"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="387dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sub"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="484dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="569dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Div"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="484dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="569dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Result"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="142dp"
-        tools:ignore="MissingConstraints" />
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="166dp" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
         android:ems="10"
         android:inputType="text"
         android:text="Enter First Number"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="237dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="305dp" />
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:text="Enter Second Number"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="300dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="402dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
