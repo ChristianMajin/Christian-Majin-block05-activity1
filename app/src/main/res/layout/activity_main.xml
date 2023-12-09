@@ -7,11 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1215dp"
+        android:layout_height="1175dp"
+        app:srcCompat="@drawable/img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-592dp"
+        tools:layout_editor_absoluteY="-204dp" />
+
     <TextView
         style="@style/Widget.AppCompat.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculator"
+        android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,6 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Add"
         android:textStyle="bold|italic"
+        app:rippleColor="@android:color/white"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="479dp" />
@@ -66,6 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Result"
+        android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
@@ -79,6 +92,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="Enter First Number"
+        android:textColor="@color/white"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="78dp"
@@ -91,9 +105,12 @@
         android:ems="10"
         android:inputType="text"
         android:text="Enter Second Number"
+        android:textColor="@color/white"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="402dp" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
