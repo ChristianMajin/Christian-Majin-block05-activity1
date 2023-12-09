@@ -37,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
+        android:textColorLink="@color/black"
         android:textStyle="bold|italic"
         app:rippleColor="@android:color/white"
         tools:ignore="MissingConstraints"
@@ -111,6 +112,14 @@
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="402dp" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
